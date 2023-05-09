@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 656620368}
   - component: {fileID: 656620367}
   - component: {fileID: 656620370}
+  - component: {fileID: 656620371}
   m_Layer: 0
   m_Name: spaceship1_1
   m_TagString: Untagged
@@ -343,6 +344,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!60 &656620371
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656620366}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 4.13}
+    newSize: {x: 5, y: 4.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.4040955, y: -1.2051792}
+      - {x: 1.4114885, y: -1.6365937}
+      - {x: 1.6368476, y: -1.6366637}
+      - {x: 1.6316812, y: -1.2011155}
+      - {x: 1.8535705, y: -1.1954916}
+      - {x: 1.8553647, y: -0.11459546}
+      - {x: 2.0790994, y: -0.11074188}
+      - {x: 2.0832324, y: -0.31132764}
+      - {x: 2.2863827, y: -0.30826}
+      - {x: 2.278808, y: -0.10436189}
+      - {x: 2.5, y: -0.104917504}
+      - {x: 2.4955938, y: 0.7738889}
+      - {x: 1.8533205, y: 0.7723356}
+      - {x: 1.8442457, y: 0.97431976}
+      - {x: 1.6285495, y: 0.9762645}
+      - {x: 1.6309949, y: 1.6369897}
+      - {x: 1.414435, y: 1.6279846}
+      - {x: 1.4120533, y: 0.97377706}
+      - {x: 1.2044584, y: 0.9805651}
+      - {x: 1.1927584, y: 1.4160489}
+      - {x: 0.98808, y: 1.414172}
+      - {x: 0.9720595, y: 1.8428406}
+      - {x: 0.76165545, y: 1.847772}
+      - {x: 0.7628498, y: 2.062285}
+      - {x: 0.48999998, y: 2.065}
+      - {x: -0.14999999, y: 1.915}
+      - {x: -0.5, y: 1.495}
+      - {x: -0.52, y: 2.065}
+      - {x: -0.78, y: 2.065}
+      - {x: -1, y: 1.8449999}
+      - {x: -1.22, y: 1.415}
+      - {x: -1.39, y: 1.635}
+      - {x: -1.41, y: 1.655}
+      - {x: -1.65, y: 1.685}
+      - {x: -1.9, y: 0.98499995}
+      - {x: -2.5, y: 0.78499997}
+      - {x: -2.4950674, y: -0.12020174}
+      - {x: -2.279544, y: -0.11508243}
+      - {x: -2.2812862, y: -0.32584026}
+      - {x: -2.0680258, y: -0.32567245}
+      - {x: -2.0615766, y: -0.104794905}
+      - {x: -1.8720175, y: -0.10809328}
+      - {x: -1.87, y: -1.1949999}
+      - {x: -1.8499999, y: -1.2149999}
+      - {x: -1.6314901, y: -1.2058883}
+      - {x: -1.6257396, y: -1.6351345}
+      - {x: -1.3950672, y: -1.6356723}
+      - {x: -1.4048598, y: -1.1989613}
+      - {x: -1.18, y: -1.1949999}
+      - {x: -1.1967239, y: -0.3310063}
+      - {x: -0.9836202, y: -0.3303966}
+      - {x: -0.97768396, y: -0.7637771}
+      - {x: -0.7621451, y: -0.75419873}
+      - {x: -0.7508199, y: -0.34388348}
+      - {x: -0.53787005, y: -0.34753287}
+      - {x: -0.54511935, y: -0.98951995}
+      - {x: -0.3297126, y: -0.983587}
+      - {x: -0.3329087, y: -1.2033652}
+      - {x: -0.13586885, y: -1.2081785}
+      - {x: -0.13, y: -2.065}
+      - {x: 0.13, y: -2.065}
+      - {x: 0.12024732, y: -1.2042309}
+      - {x: 0.33311868, y: -1.1810386}
+      - {x: 0.3407883, y: -0.981285}
+      - {x: 0.5414506, y: -0.97792417}
+      - {x: 0.5433951, y: -0.3362212}
+      - {x: 0.76324594, y: -0.33636737}
+      - {x: 0.76659083, y: -0.76375526}
+      - {x: 0.97446406, y: -0.7621608}
+      - {x: 0.9875709, y: -0.3296406}
+      - {x: 1.1945199, y: -0.33543068}
+      - {x: 1.2020445, y: -1.2009109}
 --- !u!1 &1252021190
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +452,7 @@ GameObject:
   - component: {fileID: 1252021193}
   - component: {fileID: 1252021192}
   - component: {fileID: 1252021191}
+  - component: {fileID: 1252021194}
   m_Layer: 0
   m_Name: SpaceStation
   m_TagString: Untagged
@@ -369,7 +468,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252021190}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -449,6 +548,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1252021194
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252021190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.15234375, y: 0.47265625}
+      - {x: -0.29296875, y: 0.40234375}
+      - {x: -0.40234375, y: 0.29296875}
+      - {x: -0.47265625, y: 0.15234375}
+      - {x: -0.5, y: 0}
+      - {x: -0.47265625, y: -0.15234375}
+      - {x: -0.40234375, y: -0.29296875}
+      - {x: -0.29296875, y: -0.40234375}
+      - {x: -0.15234375, y: -0.47265625}
+      - {x: 0, y: -0.5}
+      - {x: 0.15234375, y: -0.47265625}
+      - {x: 0.29296875, y: -0.40234375}
+      - {x: 0.40234375, y: -0.29296875}
+      - {x: 0.47265625, y: -0.15234375}
+      - {x: 0.5, y: 0}
+      - {x: 0.47265625, y: 0.15234375}
+      - {x: 0.40234375, y: 0.29296875}
+      - {x: 0.29296875, y: 0.40234375}
+      - {x: 0.15234375, y: 0.47265625}
 --- !u!1 &1979916210
 GameObject:
   m_ObjectHideFlags: 0
